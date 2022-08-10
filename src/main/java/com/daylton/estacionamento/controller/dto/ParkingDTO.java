@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 public class ParkingDTO {
 
     private String id;
-    private String licensce;
+    private String license;
     private String state;
     private String model;
     private String color;
@@ -27,12 +27,12 @@ public class ParkingDTO {
         this.id = id;
     }
 
-    public String getLicensce() {
-        return licensce;
+    public String getLicense() {
+        return license;
     }
 
-    public void setLicensce(String licensce) {
-        this.licensce = licensce;
+    public void setLicense(String license) {
+        this.license = license;
     }
 
     public String getState() {

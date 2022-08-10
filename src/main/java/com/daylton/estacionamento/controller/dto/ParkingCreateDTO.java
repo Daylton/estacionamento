@@ -2,17 +2,17 @@ package com.daylton.estacionamento.controller.dto;
 
 public class ParkingCreateDTO {
 
-    private String licensce;
+    private String license;
     private String state;
     private String model;
     private String color;
 
-    public String getLicensce() {
-        return licensce;
+    public String getLicense() {
+        return license;
     }
 
-    public void setLicensce(String licensce) {
-        this.licensce = licensce;
+    public void setLicense(String license) {
+        this.license = license;
     }
 
     public String getState() {
